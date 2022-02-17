@@ -39,8 +39,8 @@ a{
 }
 .nav-options ul{
     width: 100%;
-    padding : 5%;
-    margin-top: 0px;
+    padding : 2.5%;
+    margin: 5px;
     position: fixed;
     background-color:#000;
 }
