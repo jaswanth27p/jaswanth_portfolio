@@ -19,47 +19,44 @@ header {
     
     background-size: cover;
     background-repeat: no-repeat;
+    height:400px;
 }
-.logo{
-    display: block;
-    margin:0px;
-     
+.about .container{
+    min-height: 300px;
 }
+ 
+
 a{
     text-decoration: none;
     color:#ffffff;
+    font-family: 'Teko', sans-serif;
 }
-.logo h1{
-    margin-top: 0px;
-    
-    padding-top: 10px;
-    text-align: center;
-}
+ 
 .nav-options ul li{
     display: inline-block;
-    padding: 5px;
+    padding: 10px;
     
 }
 .nav-options ul{
+    width: 100%;
     padding : 5%;
     margin-top: 0px;
-   
+    position: fixed;
+    background-color:#000;
 }
 
 header q{
     display:block;
     text-align: center;
     margin:10px;
+    font-family: 'Architects Daughter', cursive;
 
 }
 .container{
     margin: 15px;
     padding: 20px;
 }
-.about .container p{
-    margin: 10px;
-
-}
+ 
 .about,.sm{
     background-color:#7D868F;
 
@@ -75,9 +72,11 @@ header q{
     color:#000000;
 }
 .exp .container p{
-    color:#7D868F;
+    color:#8f8a7d;
 }
-
+.exp .container p span{
+    color: red;
+}
 .exp1,.exp2,.exp3{
     background-color:#7D868F;
     border: 3px solid #fff;
@@ -133,3 +132,17 @@ footer a {
 #x{
     padding: 0px;
 }
+span{
+    color:#6b9de7;
+}
+b{
+    color:#123974;
+    font-size: 20px;
+}
+p{
+    font-family: 'Gideon Roman', cursive;
+}
+h1,h2,h3,h4{
+    font-family: 'Roboto Serif', sans-serif;
+}
+
