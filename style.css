@@ -36,12 +36,14 @@ a{
     display: inline-block;
     padding: 5px;
     Margin :5px;
+    margin-top : 0px;
     text-align: center;
     
 }
 .nav-options ul{
     width: 100%;
     padding : 2.5%;
+    margin-top : 0px;
     
     position: fixed;
     background-color:#000;
